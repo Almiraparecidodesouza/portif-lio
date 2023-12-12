@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #e1f7d5; /* Verde claro de fundo */
+    color: #215e34; /* Verde escuro para texto */
+}
+
+/* Estilos para a seção s1 (cabeçalho) */
+.s1 {
+    background-color: #4caf50; /* Verde padrão para o cabeçalho */
+    color: white; /* Texto branco para contraste */
+    text-align: center;
+    padding: 10px 0;
+}
+
+.s1 .item-atual {
+    font-size: 24px;
+    margin-left: 30px ;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.s1 .itens a {
+    text-decoration: none;
+    color: white;
+    display: inline;
+    margin-right: 20px;
+    padding: 10px 20px;
+    transition: background-color 0.3s;
+    cursor:pointer;
+}
+
+.s1 .itens a:hover {
+    background-color: #8daa8e;
+}
+
+/* Estilos para a seção s2 (apresentação) */
+.s2 {
+    background-color: white; /* Fundo branco */
+    text-align: center;
+    padding: 20px;
+}
+
+.s2 img {
+    max-width: 100%;
+    border-radius: 10px;
+    width: 180px;
+    height: 200px;
+}
+
+.s2 h1 {
+    font-size: 36px;
+    color: #215e34; /* Verde escuro */
+}
+
+.s2 p {
+    font-size: 18px;
+    color: #215e34;
+}
+
+.s2 button {
+    background-color: #4caf50; /* Verde padrão para o botão */
+    color: white;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.s2 button:hover {
+    background-color: #45a049; /* Tom mais escuro de verde quando hover */
+}
+
+/* Estilos para a seção s3 (ícones de redes sociais) */
+.s3 {
+    background-color: #e1f7d5; /* Verde claro de fundo */
+    text-align: center;
+    padding: 20px 0;
+}
+
+.s3 .titulo h2 {
+    font-size: 24px;
+    color: #215e34; /* Verde escuro */
+}
+
+.s3 i {
+    font-size: 24px;
+    color: #4caf50; /* Verde padrão para os ícones */
+    margin: 0 10px;
+}
